@@ -23,8 +23,12 @@ Describes in more detail the data and also provides a list of what activity is a
 A function was created to read in the above datasets.  
 1) The features DF was used as the colnames of the xDAta dataframe.  
 2) The activity labels were read in and then transformed into the written activity type.
+####Variables within the tidy data set are as examined as follows (taken from [1]).
+The activity labels consist of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 3) The xLabels (activty) dataframe was merged to the xData dataframe via cbind.  
 4) The subject list dataframe was added via cbind as well.  
+#####
+The subjects who carried out the experiment are represented as a number from 1 to 30.
 
 The function was called using 'test' string to perform the work on the test dataset
 Then the function was called using 'train' string to perform the work on the train dataset
